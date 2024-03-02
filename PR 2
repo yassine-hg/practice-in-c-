@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    int A , B ,C;
+
+    printf("Enter le nombre A :  ");
+    scanf("%d", &A);
+
+    printf("Enter le nombre B : ");
+    scanf("%d" , &B);
+
+    printf("Enter le nombre C : ");
+    scanf("%d", &C);
+
+    int max = B;
+
+    if (A > B) {
+        printf("Plus grand est A");
+    }
+    else if  (max < C){
+        printf("Plus grand est c");
+    }
+    else{
+        printf("Plus grand est B");
+    }
+
+
+return 0;
+}
