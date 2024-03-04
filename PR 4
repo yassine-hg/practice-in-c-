@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a , b , c;
+
+    printf("Enter the first lenght : ");
+    scanf("%d" , &a);
+
+    printf("Enter the second lenght : ");
+    scanf("%d" , &b);
+
+    printf("Enter the third lenght : ");
+    scanf("%d" , &c);
+
+    if (a + b > c){
+        printf("valide triangle");
+    }
+    else if (a + c > b){
+        printf("valide triangle ");
+    }
+    else if (b + c > a){
+        printf("valide triangle ");
+    }
+    else{
+        printf("error");
+    }
+
+
+return 0;
+}
