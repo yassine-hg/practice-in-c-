@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int note ;
+
+    printf("enter votre note : ");
+    scanf("%d" , &note);
+
+switch(note)
+    {
+case 10 :
+    printf("Courage");
+    break;
+case 15 :
+    printf("Tres bien ");
+    break;
+case 20 :
+    printf("Exelente ");
+default:
+    printf("Veuiller reseyer ");
+
+
+
+
+
+    }
+
+
+return 0;
+}
